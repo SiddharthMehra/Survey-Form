@@ -1,0 +1,46 @@
+<html>
+  <h1 id="title"> Survey Form
+  </h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <label for="name"> Name:</label><br>
+  <input type="text" id="name" name="fname" placeholder="Enter your name"><br>
+    <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+     <label for="name"> Age:(optional)</label><br>
+  <input type="number" id="number" name="fname" pattern="\d*" title="Numbers only, please." min="1" max="100" placeholder="Age">
+<br> <label for="role">Which option best describes your current role?</label><select name="cars" id="cars">
+  <option value="Student">Student</option>
+  <option value="Full Time Job">Full Time Job</option>
+  <option value="Full Time Learner">Part time jo</option>
+  <option value="Prefer not to say">Prefer not to say</option>
+    <option value="Other">Other</option>
+    </select></br><br>
+  <p>Would you recommend this page to a friend?</p></br>
+<input type="radio" id="decision" name="perhaps" value="Definitely">
+<label for="choice">Definitely</label><br>
+ <input type="radio" id="Maybe" name="decision" value="Maybe">
+<label for="choice">Maybe</label><br>   
+ <input type="radio" id="Not Sure" name="decision" value="Not Sure">
+<label for="choice">Not Sure</label><br>
+<p> What would you like to see improved?(Check all that apply)
+<br><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Artificial Intelligence</label></br>
+<br><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Web Development</label></br>
+<br><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Data Visualisation</label></br>
+<br><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Machine Learning</label>
+</br>
+<br><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Open Source Community</label>
+</br>
+<br>
+<label for="comments and Suggestions">Any comments or suggestions?</label></br>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Enter text here">
+</textarea>
+<br><button id="Submit">Submit</button></br>
+  </form>
+  
